@@ -1,0 +1,288 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+body {
+    background-image: url(../img/main_bg.png);
+    background-color: #EBF0F8;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    min-height: 100%;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #666666;
+    font-weight: 400;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+.page {
+    background-color: #fff;
+    max-width: 1200PX;
+    box-shadow: 0px 0px 40px -10px rgba(0, 0, 0, .2);
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 50px;
+}
+
+/* Diff css */
+
+.pdtb100 {
+    padding: 100px 0px;
+}
+
+.pdtb50 {
+    padding: 50px 0px;
+}
+
+.pdb100 {
+    padding: 100px 0px;
+}
+
+.pdb50 {
+    padding: 50px 0px;
+}
+
+.pdb20 {
+    padding: 20px 0px;
+}
+
+.section-title {}
+
+.section-title h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #3d3d3d;
+    padding: 10px 0px;
+}
+
+.section-title h3:after {
+    display: block;
+    position: absolute;
+    content: '';
+    width: 40px;
+    background-color: #007ced;
+    height: 2px;
+    bottom: 0;
+}
+
+.section-title h3:before {
+    display: block;
+    position: absolute;
+    content: '';
+    width: 100%;
+    background-color: #f5f5f5;
+    height: 2px;
+    bottom: 0;
+}
+
+
+/* Header */
+
+.navbar {
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+    padding: 20px 15px;
+    background: #fff;
+    overflow: hidden;
+    top: 70px;
+}
+
+.navbar-nav .nav-item .nav-link {
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 20px;
+    transition: color .35s;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #007CED;
+}
+
+.tblue {
+    color: #007CED;
+
+}
+
+
+/* hero */
+
+.hero {
+    padding-top: 200px;
+    padding-bottom: 50px;
+}
+
+.hero .hero-left {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.hero .hero-left img {
+    border-radius: 100%;
+    border: 15px solid #fff;
+    box-shadow: -13px 13px 7px -13px rgba(0, 0, 0, .2);
+}
+
+.hero .hero-right {
+    width: 80%;
+    margin-top: 30px;
+}
+
+.hero .hero-right h6 {
+    font-size: 16px;
+    color: #B4B4B4;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.hero .hero-right h1 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #3D3D3D;
+    text-transform: uppercase;
+}
+
+.hero .hero-right p {
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.hero .hero-right .hero-btn {
+    margin-top: 30px;
+
+}
+
+.hero .hero-right .hero-btn a {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #666666;
+    border: 1px solid #007CED;
+    padding: 10px 25px;
+    font-weight: 600;
+    border-radius: 80px;
+    margin-right: 20px;
+    text-decoration: none;
+    transition: .35s;
+}
+
+.hero .hero-right .hero-btn a:hover {
+    color: #fff;
+    background: #007CED;
+    border: 1px solid #007CED;
+    box-shadow: 0px 0px 40px -10px rgba(0, 0, 0, .2);
+}
+
+/* i-do */
+.i-do {}
+
+.i-do .ido-content {
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+.i-do .ido-content img {
+    float: left;
+    height: 50px;
+    margin-bottom: 80px;
+    color: #007CED;
+    padding-right: 30px;
+
+}
+
+.i-do .ido-content .ido-right {
+    width: 95%;
+}
+
+.i-do .ido-content .ido-right h4 {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #3d3d3d;
+    transition: .35s;
+}
+
+.i-do .ido-content:hover .ido-right h4 {
+    cursor: pointer;
+    color: #007CED;
+}
+
+.i-do .ido-content .ido-right p {
+    font-size: 16px;
+    line-height: 30px;
+}
+
+/* Skill */
+
+.skil-section {}
+
+.skil-section .skill-title {
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+.skil-section .skill-title h3 {
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 20px;
+    color: #007CED;
+    text-transform: uppercase;
+    border-bottom: 2px solid #EBF0F8;
+}
+
+.skil-section .skill-title p {
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.skil-section .skill-icon {
+    padding: 50px 0px;
+    text-align: center;
+}
+
+.skil-section .skill-icon img {
+    height: 150px;
+}
+
+/* social */
+.social {}
+
+.social .social-media {
+    background: #fff;
+    padding: 50px 0px;
+    text-align: center;
+    box-shadow: -7px 5px 12px -9px rgba(0, 0, 0, .2);
+    transition: all .35s;
+    border-radius: 5px;
+    border-bottom: 2px solid #007ced;
+}
+
+.social .social-media:hover {
+    cursor: pointer;
+    margin-top: -10px;
+    background: #007CED;
+    color: #fff;
+}
+
+.social .social-media a {
+    font-size: 36px;
+    color: #007CED;
+    transition: all .35s;
+}
+
+.social .social-media:hover a {
+    color: #fff;
+}
