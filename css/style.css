@@ -348,7 +348,6 @@ footer {
 
 .contact-section {
     overflow: hidden;
-    height: 750px;
     margin-top: 150px;
 }
 
@@ -357,4 +356,46 @@ footer {
     height: 350px;
     border: none;
     border-radius: 10px;
+    box-shadow: 1px 1px 6px 0px #00000026;
+}
+
+
+
+
+
+
+.contact-info .contact-part {
+    background: #fff;
+    height: 250px;
+    text-align: center;
+    box-shadow: -7px 5px 12px -9px rgba(0, 0, 0, .2);
+    transition: all .35s;
+    border-radius: 5px;
+    border-bottom: 2px solid #007ced;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-info .contact-part:hover {
+    cursor: pointer;
+    margin-top: -10px;
+    background: #007CED;
+    color: #fff;
+}
+
+.contact-info .contact-part .contact-inner p {
+    font-size: 16px;
+    line-height: 10px;
+}
+
+.contact-info .contact-part .contact-inner i {
+    font-size: 36px;
+    color: #007CED;
+    transition: all .35s;
+    margin-bottom: 25px;
+}
+
+.contact-info .contact-part:hover .contact-inner i{
+    color: #fff;
 }
