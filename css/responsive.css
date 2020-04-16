@@ -34,7 +34,9 @@
   .contact-info .contact-part {
     height: 210px;
   }
-
+  .social .social-media {
+    margin-bottom: 30px;
+  }
   .section-title h3 {
     font-size: 22px;
   }
