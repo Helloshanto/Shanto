@@ -38,6 +38,7 @@
   /* Contact Page */
   .contact-info .contact-part {
     margin-bottom: 30px;
+    overflow: hidden;
   } 
   #topcontrol img {
     margin-right: 40px;
