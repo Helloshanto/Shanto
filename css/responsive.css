@@ -18,6 +18,10 @@
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991px) {
+  .hero .hero-right {
+    width: 100%;
+    text-align: center;
+  }
 
   .navbar-nav .nav-item .nav-link {
     padding-top: 30px;
@@ -31,7 +35,7 @@
     font-size: 22px;
   }
 
-  .section-title{
+  .section-title {
     margin-top: 30px;
   }
 
@@ -39,7 +43,8 @@
   .contact-info .contact-part {
     margin-bottom: 30px;
     overflow: hidden;
-  } 
+  }
+
   #topcontrol img {
     margin-right: 40px;
     margin-bottom: 50px;
