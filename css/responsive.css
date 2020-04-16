@@ -4,40 +4,171 @@
 */
 
 @media (min-width: 1281px) {
-  
-    //CSS
-    
-  }
-  
-  /* 
+
+  //CSS
+
+}
+
+/* 
     ##Device = Laptops, Desktops
     ##Screen = B/w 1025px to 1280px
   */
-  
-  @media (min-width: 1025px) and (max-width: 1280px) {
-    
-    //CSS
-    
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+  //CSS
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px){
+
+  .navbar-nav .nav-item .nav-link {
+    padding-top: 30px;
   }
-  
-  /* 
-    ##Device = Tablets, Ipads (portrait)
-    ##Screen = B/w 768px to 1024px
-  */
-  
-  @media (min-width: 768px) and (max-width: 1024px) {
-    
-    //CSS
-    
+
+  .contact-info .contact-part {
+    height: 210px;
   }
-  
-  /* 
+
+  .section-title h3 {
+    font-size: 22px;
+  }
+
+}
+
+/* small devices (tablets, 768px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+
+
+  .hero {
+    padding: 50px 0px;
+  }
+
+  .hero .hero-right {
+    width: 100%;
+    text-align: center;
+  }
+
+  .social .social-media {
+    margin-bottom: 30px;
+  }
+
+  .footer .footer-nav {
+    list-style: none;
+    text-align: center;
+  }
+
+  .footer .footer-nav a {
+    float: none;
+  }
+
+  .footer-inner {
+    text-align: center;
+  }
+
+  #topcontrol img {
+    margin-right: 260px;
+    margin-bottom: 25px;
+  }
+
+  /* Contact Page */
+  .contact-info .contact-part {
+    margin-bottom: 30px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/* 
     ##Device = Most of the Smartphones Mobiles (Portrait)
-    ##Screen = B/w 320px to 479px
+    ##Screen = B/w 320px to 575px
   */
-  
-  @media (min-width: 320px) and (max-width: 480px) {
-    
-    //CSS
-    
+
+@media (min-width: 320px) and (max-width: 575px) {
+  .hero .hero-left img {
+    border: 5px solid #fff;
+
   }
+
+  .navbar-nav .nav-item .nav-link {
+    padding-top: 30px;
+  }
+
+  #topcontrol img {
+    margin-right: 139px;
+    margin-bottom: 10px;
+    width: 30px;
+  }
+
+
+  .hero {
+    padding: 20px 0px;
+    text-align: center;
+  }
+
+  .hero .hero-right {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .hero .hero-right .hero-btn a {
+    padding: 10px 15px;
+    margin-right: 9px;
+  }
+
+  .hero .hero-right .hero-btn {
+    margin-bottom: 50px;
+  }
+
+  .i-do .ido-content {
+    text-align: center;
+  }
+
+
+  .i-do .ido-content img {
+    float: none;
+    margin-bottom: 30px;
+    padding-right: 0px;
+  }
+
+  .skil-section .skill-title {
+    max-width: 100%;
+  }
+
+  .social .social-media {
+    margin-bottom: 30px;
+  }
+
+  .footer .footer-nav {
+    list-style: none;
+    text-align: center;
+  }
+
+  .footer .footer-nav a {
+    float: none;
+  }
+
+  .footer-inner {
+    text-align: center;
+  }
+
+  /* Contact Page */
+  .contact-info .contact-part {
+    margin-bottom: 30px;
+  }
+
+  .contact-info .contact-part .contact-inner p {
+    font-size: 14px;
+  }
+
+}

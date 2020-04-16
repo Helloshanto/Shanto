@@ -112,7 +112,7 @@ body {
     padding: 20px 15px;
     background: #fff;
     overflow: hidden;
-    top: 50px;
+    margin-top: 50px;
 }
 
 .navbar-nav .nav-item .nav-link {
