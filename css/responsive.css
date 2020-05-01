@@ -22,7 +22,6 @@
   .hero {
     padding: 20px 0px;
   }
-
   .hero .hero-right {
     width: 100%;
     text-align: center;
@@ -35,11 +34,9 @@
   .contact-info .contact-part {
     height: 210px;
   }
-
   .social .social-media {
     margin-bottom: 30px;
   }
-
   .section-title h3 {
     font-size: 22px;
   }
