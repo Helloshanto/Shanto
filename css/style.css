@@ -119,6 +119,7 @@ body {
     font-size: 14px;
     font-weight: 500;
     margin-left: 20px;
+    font-weight: 600;
     transition: color .35s;
 }
 
@@ -269,6 +270,13 @@ body {
 
 .skil-section .skill-icon img {
     height: 150px;
+    filter: grayscale(1);
+    transition: all .45s;
+}
+
+.skil-section .skill-icon img:hover {
+
+    filter: grayscale(0);
 }
 
 /* social */
