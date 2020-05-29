@@ -2,7 +2,7 @@ var scrolltotop = {
     setting: {
         startline: 100,
         scrollto: 0,
-        scrollduration: 1e3,
+        scrollduration: 1e1,
         fadeduration: [500, 100]
     },
     controlHTML: '<img src="./img/Top.png" />',

@@ -275,7 +275,7 @@ body {
 }
 
 .skil-section .skill-icon img:hover {
-
+    cursor: pointer;
     filter: grayscale(0);
 }
 
